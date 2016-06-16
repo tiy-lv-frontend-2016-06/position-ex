@@ -1,0 +1,69 @@
+#header {
+  background:red;
+  position:absolute;
+  top:0px;
+  height:100px;
+  left:0px;
+  right:0px;
+}
+
+#sidebar {
+  position:absolute;
+  top:100px;
+  left:0;
+  width:200px;
+  bottom:100px;
+  background:blue;
+}
+
+#content {
+  position:absolute;
+  top:100px;
+  left:200px;
+  right:0;
+  bottom:100px;
+  background:yellow;
+  overflow:auto;
+}
+
+#footer {
+  position:absolute;
+  bottom:0;
+  height:100px;
+  left:0;
+  right:0;
+  background:green;
+}
+
+
+
+#background {
+  background:url('../bg_beer.jpg');
+  width:500px;
+  height:300px;
+  position:relative;
+}
+
+#background:hover .overlay {
+  display:none;
+}
+
+#background:hover h1 {
+  color:white;
+}
+
+.overlay {
+  background:white;
+  opacity:.5;
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+
+h1 {
+  color:black;
+  margin:0;
+}
